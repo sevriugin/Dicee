@@ -127,13 +127,8 @@ footer {
   padding: 0 15% 3%;
 }
 
-@media screen and (max-width: 720px) {
-  .board {
-    padding: 0 0 3%;
-  }
-}
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
   .dice img {
     max-width: 100px;
   }
