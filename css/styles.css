@@ -134,12 +134,16 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
+  .dice img {
+    max-width: 100px;
+  }
+
   .header {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   .message {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .board {
@@ -147,7 +151,7 @@ footer {
   }
 
   figcaption {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   button {
