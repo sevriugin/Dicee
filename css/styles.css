@@ -128,9 +128,13 @@ footer {
 }
 
 
-@media screen and (max-width: 576px) {
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) 
+{
   .dice img {
-    max-width: 100px;
+    max-width: 300px;
   }
 
   .header {
