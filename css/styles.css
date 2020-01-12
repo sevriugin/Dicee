@@ -134,15 +134,15 @@ footer {
     and (-webkit-device-pixel-ratio : 3) 
 {
   .dice img {
-    max-width: 300px;
+    max-width: 320px;
   }
 
   .header {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   .message {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .board {
@@ -150,12 +150,12 @@ footer {
   }
 
   figcaption {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   button {
-    font-size: 1rem;
-    width: 80px;
-    height: 40px;
+    font-size: 3rem;
+    width: 200px;
+    height: 100px;
   }
 }
